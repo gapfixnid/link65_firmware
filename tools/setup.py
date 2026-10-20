@@ -65,7 +65,8 @@ def apply_overlays():
         if source.is_file():
             target = ROOT / 'qmk' / source.relative_to(ROOT / 'overlays')
             target.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(source, target)
+            if not target.is_file() or target.read_bytes() != source.read_bytes():
+                shutil.copyfile(source, target)
 
 
 def prepare_sources():
