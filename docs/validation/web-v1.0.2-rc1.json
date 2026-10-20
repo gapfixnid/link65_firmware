@@ -1,0 +1,30 @@
+{
+  "physicalDeviceAccessed": false,
+  "transport": "Unicorn with EEPROM boundary stubs; actual compiled Cortex-M3 VIA dispatch",
+  "info": {
+    "name": "LINK Hotswap",
+    "protocol": 13,
+    "layers": 4,
+    "macroCount": 16,
+    "macroSize": 1407,
+    "keycodesVersion": 9,
+    "firmwareVersion": 65538,
+    "capabilities": {
+      "matrix": true,
+      "bootloader": false,
+      "schema": 1
+    },
+    "writable": true
+  },
+  "checks": [
+    "negotiated protocol, keycodes, capacity, capabilities",
+    "unsupported bootloader entry is refused before sending a command",
+    "all 300 factory keycodes match compiled firmware",
+    "actual compiled VIA key and macro writes, backups and readback",
+    "modern backup round trip",
+    "all 75 matrix cells and full matrix in actual compiled custom handler",
+    "factory reset uses compiled defaults and clears macros",
+    "legacy backup migration and restore against compiled firmware"
+  ],
+  "passed": 8
+}

@@ -1,0 +1,14 @@
+{
+  "version": "1.0.2-rc1",
+  "firmwareSha256": "c33fdae03fe7e41e358c69ca560c54299c52e1d5d9b4a0cd95017332ac148285",
+  "exactFlashPayloadReadbackMatch": true,
+  "settingsFlashPreserved": true,
+  "settingsAfterBootPreserved": true,
+  "normalUsbModeConfirmed": true,
+  "usbIntervalMs": 1,
+  "keymapCellsVerified": 300,
+  "macroBytesVerified": 1407,
+  "physicalSwitchBounceMeasured": false,
+  "contactToHostLatencyMeasured": false,
+  "note": "Aggregate installation evidence only; no user settings, USB identifiers or device dumps."
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1.0.2-rc1",
+  "viaFirmwareVersion": "0x00010002",
+  "qmkRevision": "180f394b489c238cb231c2bf8b080262155e03c0",
+  "image": "firmware.bin",
+  "elf": "firmware.elf",
+  "sha256": "c33fdae03fe7e41e358c69ca560c54299c52e1d5d9b4a0cd95017332ac148285",
+  "applicationOrigin": "0x08006000",
+  "applicationLimitExclusive": "0x0800F000",
+  "payloadBytes": 23848,
+  "debounce": {
+    "algorithm": "sym_defer_pk",
+    "milliseconds": 5
+  },
+  "usbIntervalMs": 1,
+  "configuration": {
+    "protocol": 13,
+    "keycodesVersion": 9,
+    "layers": 4,
+    "rows": 5,
+    "columns": 15,
+    "macros": 16,
+    "macroBufferBytes": 1407
+  },
+  "overlaysSha256": {
+    "overlays/keyboards/owlab/link65/hotswap/keymaps/studio/config.h": "b3571ddabc178f535ea4fdec6f73099c7f75a3bcc2f9194fcc2ab141caa3b70c",
+    "overlays/keyboards/owlab/link65/hotswap/keymaps/studio/keymap.c": "56d57a0624ecc66348477ffe0813c064d663c99063f976ca29e2d334a3d6d756",
+    "overlays/keyboards/owlab/link65/hotswap/keymaps/studio/rules.mk": "7dbf8dba8543a3b4b2ea8ce74822742bd6bde63dbe4f30226fb4a88f420d4ef1",
+    "overlays/keyboards/owlab/link65/hotswap/ld/STM32F103_link65_studio_64k.ld": "0acca2ffc27dcc3823350c5157499326b4e3d79627ebfb131148b4d1ea83b827",
+    "overlays/platforms/chibios/timer.c": "cb191f6ecdffbbf1fd9e3d4d253a31c1201070b3d081508f0d775f6384ca6ea5"
+  }
+}

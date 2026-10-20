@@ -1,0 +1,57 @@
+{
+  "qmkRevision": "180f394b489c238cb231c2bf8b080262155e03c0",
+  "submodules": {
+    "chibios": "6170ddf92d55be54c89b708d1882eea229edeb2c",
+    "chibios-contrib": "5a9ad82b6ba4f649cdb800e8c2bbc9be2d3ce767",
+    "googletest": "6910c9d9165801d8827d628cb72eb7ea9dd538c5",
+    "lufa": "549b97320d515bfca2f95c145a67bd13be968faa",
+    "lvgl": "e19410f8f8a256609da72cff549598e0df6fa4cf",
+    "pico-sdk": "d0c5cac430cc955b65efa0e899748853d9a80928",
+    "printf": "c2e3b4e10d281e7f0f694d3ecbd9f320977288cc",
+    "vusb": "819dbc1e5d5926b17e27e00ca6d3d2988adae04e"
+  },
+  "sources": [
+    {
+      "name": "qmk",
+      "filename": "qmk.tar.gz",
+      "url": "https://codeload.github.com/qmk/qmk_firmware/tar.gz/180f394b489c238cb231c2bf8b080262155e03c0",
+      "sha256": "7e80308521e970917b6efebd74f65fb447c451f284c3dc2379a6ac32f8066a81"
+    },
+    {
+      "name": "chibios",
+      "filename": "chibios.tar.gz",
+      "url": "https://codeload.github.com/qmk/ChibiOS/tar.gz/6170ddf92d55be54c89b708d1882eea229edeb2c",
+      "sha256": "9c650ea3c630c9d7a9cd3af8ccbe3b069fa1ae1dbcf58586166d8e3fff28d912"
+    },
+    {
+      "name": "chibios-contrib",
+      "filename": "chibios-contrib.tar.gz",
+      "url": "https://codeload.github.com/qmk/ChibiOS-Contrib/tar.gz/5a9ad82b6ba4f649cdb800e8c2bbc9be2d3ce767",
+      "sha256": "e48f989afed8371917bc80292233212594d10aae2ffc01220020929de7f0163d"
+    },
+    {
+      "name": "printf",
+      "filename": "printf.tar.gz",
+      "url": "https://codeload.github.com/qmk/printf/tar.gz/c2e3b4e10d281e7f0f694d3ecbd9f320977288cc",
+      "sha256": "2fabf2d86b4118ab52f6f0d2e5fd6b20bb7a1c2f67f56e2d463753d6cd2bda42"
+    },
+    {
+      "name": "lufa",
+      "filename": "lufa.tar.gz",
+      "url": "https://codeload.github.com/qmk/lufa/tar.gz/549b97320d515bfca2f95c145a67bd13be968faa",
+      "sha256": "01a62a2258dc4fe574290ce5ccc3f947d4e101141a228cc927ae28e58a7bec23"
+    }
+  ],
+  "windowsToolchain": [
+    {
+      "filename": "qmk-msys-1.12.0.exe",
+      "url": "https://github.com/qmk/qmk_distro_msys/releases/download/1.12.0/QMK_MSYS.exe",
+      "sha256": "21df7d55f80870b22121d99867a541cc2a2ed834a28b908d379006a1f7c24c1c"
+    },
+    {
+      "filename": "innounp-2.zip",
+      "url": "https://raw.githubusercontent.com/jrathlev/InnoUnpacker-Windows-GUI/032d64c782efc6b36766d8f9c3b1b2f042144a58/innounp-2/bin/innounp-2.zip",
+      "sha256": "10fce27b6344b7674d5625cc34afca1c88c12183d957c6d93e401097fa2556cd"
+    }
+  ]
+}
